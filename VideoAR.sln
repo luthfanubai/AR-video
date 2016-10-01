@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{F7541140-069C-232A-6D1D-F3DF42629E64}") = "VideoAR", "Assembly-CSharp.csproj", "{032E2219-BDD5-3288-3E14-EFC2CB3DE2D8}"
+EndProject
+Project("{F7541140-069C-232A-6D1D-F3DF42629E64}") = "VideoAR", "Assembly-CSharp-Editor.csproj", "{2B476F51-A828-30C1-585B-71558CD62BCF}"
+EndProject
+Project("{F7541140-069C-232A-6D1D-F3DF42629E64}") = "VideoAR", "Assembly-UnityScript-Editor-firstpass.unityproj", "{A2106383-19BB-8810-EBA6-DE990AD89B9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{032E2219-BDD5-3288-3E14-EFC2CB3DE2D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{032E2219-BDD5-3288-3E14-EFC2CB3DE2D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{032E2219-BDD5-3288-3E14-EFC2CB3DE2D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{032E2219-BDD5-3288-3E14-EFC2CB3DE2D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B476F51-A828-30C1-585B-71558CD62BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B476F51-A828-30C1-585B-71558CD62BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B476F51-A828-30C1-585B-71558CD62BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B476F51-A828-30C1-585B-71558CD62BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2106383-19BB-8810-EBA6-DE990AD89B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2106383-19BB-8810-EBA6-DE990AD89B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2106383-19BB-8810-EBA6-DE990AD89B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2106383-19BB-8810-EBA6-DE990AD89B9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
