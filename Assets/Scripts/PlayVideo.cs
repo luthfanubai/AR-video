@@ -17,7 +17,7 @@ using Vuforia;
 public class PlayVideo : MonoBehaviour
 {
     #region PUBLIC_METHODS
-    public bool playFullscreen = false;
+    public bool playFullscreen = true;
     #endregion //PUBLIC_METHODS
 
 

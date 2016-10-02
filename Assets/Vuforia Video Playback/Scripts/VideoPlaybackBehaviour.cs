@@ -445,9 +445,11 @@ public class VideoPlaybackBehaviour : MonoBehaviour
 			mat.mainTextureScale = new Vector2 (1, 1);
 		}
 		//looping code starts here
+		/*
 		else if (newState == VideoPlayerHelper.MediaState.REACHED_END) {
 			mVideoPlayer.Play (fullScreen:false,seekPosition:0);
 		}
+		*/
 		//looping code ends
         else
         {
@@ -461,7 +463,7 @@ public class VideoPlaybackBehaviour : MonoBehaviour
 
         // Display the appropriate icon, or disable if not needed
 		// disabled icons start here
-        /*
+        
 		switch (newState)
         {
             case VideoPlayerHelper.MediaState.READY:
@@ -487,7 +489,7 @@ public class VideoPlaybackBehaviour : MonoBehaviour
                 mIconPlaneActive = false;
                 break;
         }
-		*/
+
 		// disabled icons end
 
         if (newState == VideoPlayerHelper.MediaState.PLAYING_FULLSCREEN)
